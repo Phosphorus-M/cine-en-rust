@@ -5,8 +5,6 @@ pub struct Asiento {
 
 impl Asiento {
     pub fn new() -> Asiento {
-        Asiento {
-            ocupado: false,
-        }
+        Asiento { ocupado: false }
     }
 }
