@@ -1,8 +1,10 @@
-use super::Asiento;
-use super::Sala;
-use crate::utils::read_line_and_parse;
 use std::io;
 use std::str::FromStr;
+
+use super::Asiento;
+use super::Sala;
+
+use crate::utils::read_line_and_parse;
 
 #[derive(Debug, Clone)]
 pub struct Cine {

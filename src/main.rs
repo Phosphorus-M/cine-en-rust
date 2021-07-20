@@ -1,7 +1,7 @@
 mod lib;
-use lib::Cine;
 mod utils;
-use utils::read_line_and_parse;
+
+use lib::Cine;
 
 fn main() {
     let mut cine = Cine::new("Hoyts");
@@ -14,7 +14,7 @@ fn main() {
         println!("2 - Emitir Informe");
         println!("3 - Salir");
 
-        numero = read_line_and_parse().unwrap();
+        numero = utils::read_line_and_parse().unwrap();
 
         match numero {
             1 => {
